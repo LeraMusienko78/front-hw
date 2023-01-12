@@ -1,0 +1,140 @@
+@import "./variables.scss";
+@import "./mixin.scss";
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+li{
+   list-style-type: none;
+}
+
+a{
+   text-decoration: none;
+   color: inherit;
+}
+
+body{
+   background: gray;
+}
+
+#app{
+   width:1920px ;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center ;
+   margin-left: 100px;
+  
+}
+
+header{
+   background: $fifth-bg-color;
+   display: flex;
+   justify-content: space-between;
+   padding: 30px;
+   width: 100%;
+
+   .logo{
+      display: flex;
+      justify-content: end;
+      align-items: center;
+
+      &-img{
+         width: 79.57px;
+         height: 23.04px;
+         margin-left: 275px;
+      }
+   }
+
+   .nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 560px;
+     
+     
+      &-link{
+         display: flex;
+         justify-content: space-around;
+         font-size: $font-size-s;
+         font-family: $secondary-font-family;
+         color: $secondary-text-color;
+      }
+   }
+
+   .sign-wrapper{
+      display: flex;
+      justify-content: center;
+      margin-right: 276px;
+     
+     .sign{
+      display: flex;
+      align-items: center;
+
+      .button{
+         margin-left: 40px;
+         width: 183px;
+         height: 51px;
+         color: $third-text-color;
+         background: $fourth-bg-color;
+         border: none;
+         font-size: $font-size-s;
+         font-family: $secondary-font-family;
+      }
+      
+     }
+   }
+}
+
+.banner{
+   // background: url(../public/images/bg-banner.png);
+   width: 1920px;
+   height: 895px;
+
+   .img-banner{
+      width: 1920px;
+      height: 895px;
+   }
+
+   .banner-text{
+      display: flex;
+      flex-direction: column;
+      width: 440px;
+      height: 409px;
+      position: absolute;
+      margin-top: -600px;
+      margin-left: 275px;
+
+      .banner-title{
+         font-size: $font-size-xxxxl;
+         color: $primary-text-color;
+         // font-family: $primary-font-family;
+      }
+
+      .banner-paragraph{
+         font-size: $font-size-s;
+         font-family: $secondary-font-family;
+         color: $fifth-text-color;
+         margin-top: 30px;
+         width: 420px;
+      }
+
+      .button{
+         width: 227px;
+         height: 65px;
+         margin-top: 48px;
+         background: $fourth-bg-color;
+         color: $fifth-bg-color;
+         font-size: $font-size-s ;
+         font-family: $secondary-font-family;
+         border: none;
+
+      }
+     
+   }
+
+  
+}
