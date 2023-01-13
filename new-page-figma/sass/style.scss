@@ -90,7 +90,6 @@ header{
 }
 
 .banner{
-   // background: url(../public/images/bg-banner.png);
    width: 1920px;
    height: 895px;
 
@@ -104,14 +103,14 @@ header{
       flex-direction: column;
       width: 440px;
       height: 409px;
-      position: absolute;
-      margin-top: -600px;
+      position: relative;
+      margin-top: -35%;
       margin-left: 275px;
 
       .banner-title{
+         font-family: $third-font-family;
          font-size: $font-size-xxxxl;
          color: $primary-text-color;
-         // font-family: $primary-font-family;
       }
 
       .banner-paragraph{
