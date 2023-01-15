@@ -194,7 +194,7 @@ main{
          .number{
             font-size: 150px;
             color: $primary-text-color;
-           
+            opacity: 20%;
          }
 
          .title{
@@ -242,6 +242,7 @@ main{
          .number{
             font-size: 150px;
             color: $primary-text-color;
+            opacity: 20%;
          }
 
          .title{
@@ -281,6 +282,7 @@ main{
          .number{
             font-size: 150px;
             color: $primary-text-color;
+            opacity: 20%;
          }
 
          .title{
@@ -313,5 +315,67 @@ main{
            
          }
       }
+   }
+
+   .video{
+      display: flex;
+      justify-content: space-between;
+      background: $third-bg-color;
+      margin-top: 50px;
+
+      .video-description{
+         margin-top: 310px;
+         margin-left: 207px;
+
+         .title{
+            font-size: $font-size-xxxl;
+            color: $third-text-color;
+            width: 580px;
+         }
+
+         .paragraph{
+            font-size: $font-size-m;
+            color: $third-text-color;
+            margin-top: 33px;
+
+         }
+
+         .button{
+            background: $fourth-bg-color;
+            width: 240px;
+            height: 65px;
+            margin-top: 57px;
+            color: $third-text-color;
+            font-size: $font-size-s;
+            border: none;
+         }
+      }
+
+      .img{
+         width: 895px;
+         height: 516px;
+         margin-top: 229px;
+         margin-right: 206px;
+
+      }
+     .clic-button{
+      position: absolute;
+      margin-left: 48%;
+      margin-top: 450px;
+
+      .vector-1{
+         width: 80px;
+         height: 80px;
+      }
+
+      .vector-2{
+         width: 23px;
+         height: 23px;
+         position: absolute;
+         margin-left: -50px;
+         margin-top: 30px;
+      }
+
+     }
    }
 }
